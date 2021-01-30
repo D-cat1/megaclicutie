@@ -1,0 +1,45 @@
+{
+  "name": "megaclicutie",
+  "version": "2.0.0",
+  "description": "MEGAJS CLI",
+  "main": "index.js",
+  "bin": {
+    "megajs": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "standard",
+    "pkg": "pkg . --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-cat1/megaclicutie.git"
+  },
+  "preferGlobal": true,
+  "pkg": {
+    "scripts": "lib/**/*.js"
+  },
+  "author": "Gustavo Rodrigues (https://qgustavor.tk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D-cat1/megaclicutie.git"
+  },
+  "homepage": "https://github.com/D-cat1/megaclicutie.git#readme",
+  "devDependencies": {
+    "pkg": "^4.4.0",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "inquirer": "^2.0.0",
+    "megajs": "^0.17.0",
+    "minimatch": "^3.0.4",
+    "progress-stream": "^1.2.0",
+    "sanitize-filename": "^1.6.1",
+    "shaper": "0.0.5",
+    "update-notifier": "^4.1.0",
+    "yargs": "^15.3.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
